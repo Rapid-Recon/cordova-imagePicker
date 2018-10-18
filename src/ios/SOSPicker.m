@@ -210,3 +210,6 @@ typedef enum : NSUInteger {
     [self.commandDelegate sendPluginResult:result callbackId:self.callbackId];
     NSLog(@"GMImagePicker: User pressed cancel button");
 }
+
+
+@end
